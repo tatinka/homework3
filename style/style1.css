@@ -27,16 +27,21 @@
     background: #4ec7a3;
 }
 header{
-    flex-basis: 10%;
-    display: flex;
-    justify-content: center;
     align-items: center;
     background-color: #7a7a7a;
 }
 main{
 flex-grow: 1;
-display: flex;
 border: 1px solid;
+}
+.header_s{
+    flex-basis: 10%;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
 }
 .gl-box{
     flex-basis: 100%;
